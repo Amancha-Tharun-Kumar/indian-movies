@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineMax</title>
+    <link rel="stylesheet" href="./movie.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.clipartkey.com/mpngs/m/15-159768_movie-clip-art-download-movie-favicon.png"
+    />
+  </head>
+  <body
+    style="
+      background-image: url('https://images.pexels.com/photos/3945317/pexels-photo-3945317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0px;
+    "
+  >
+    <header
+      style="
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        padding: 0px 50px;
+        height: 50px;
+        align-items: center;
+      "
+    >
+      <div
+        id="header"
+        style="font-family: Kalam, cursive; font-weight: 700; font-size: 40px"
+      >
+        CineMax
+      </div>
+      <div id="header1">About Us</div>
+    </header>
+    <div class="heading">
+      <h1 id="he1">welcome to the movie search Engine</h1>
+      <input
+        id="moviename"
+        style="height: 25px; width: 220px; border-radius: 17px"
+        placeholder="enter the movie"
+      />
+      <button id="search-button">Search</button>
+    </div>
+    <div id="moviecontainer"></div>
+    <script src="movie.js"></script>
+  </body>
+</html>
